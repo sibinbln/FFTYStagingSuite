@@ -1,0 +1,1 @@
+java -cp bin;JarFiles/* org.testng.TestNG emailresults.xml

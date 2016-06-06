@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="AutomationSuite" parallel="false">
+  <test name="Tests" parallel="false" preserve-order="true" verbose="2">
+    <classes>
+         	<class name="TestCases.Common.VerifyStaticLinks"/>
+         	<class name="TestCases.Common.ConcurrentLoginSessionCheck"/>
+			<class name="TestCases.CRM.AccountCancellation"/>
+			<class name="TestCases.CRM.CustomerCredit"/>
+			<class name="TestCases.CRM.DeliveryKeyStatus"/>
+			<class name="TestCases.CRM.DonationOneTime"/>
+			<class name="TestCases.CRM.DonationRecurring"/>
+			<class name="TestCases.CRM.GiftCertificateByEmail"/>
+			<class name="TestCases.CRM.GiftCertificateByHand"/>
+			<class name="TestCases.CRM.LateCancel"/>
+			<class name="TestCases.CRM.OrderItemCredit"/>
+			<class name="TestCases.CRM.OrderLevelCredit"/>
+			<class name="TestCases.CRM.OTPACHDecline"/>
+			<class name="TestCases.CRM.OTPACHSuccess"/>
+			<class name="TestCases.CRM.NSFACH"/>
+			<class name="TestCases.CRM.ACHRefund"/>
+			<class name="TestCases.CRM.OTPCCDecline"/>
+			<class name="TestCases.CRM.OTPCCSuccess"/>
+			<class name="TestCases.CRM.CheckRefund"/>
+			<class name="TestCases.CRM.CCRefund"/>
+			<class name="TestCases.CRM.Reactivation"/>
+			<class name="TestCases.CRM.VacationCancel"/>
+			<class name="TestCases.CRM.VacationCreate"/>
+			<class name="TestCases.CRM.CreateTicket"/>
+			<class name="TestCases.ERP.CheckDeposit"/>
+			<class name="TestCases.CRM.NSFCheck"/>
+			<class name="TestCases.Magento.AddSubscription"/>
+			<class name="TestCases.Magento.DeleteSubscription"/>
+			<class name="TestCases.Magento.Customization"/>
+			<class name="TestCases.Magento.GuestDonateABox"/>
+			<class name="TestCases.Magento.GuestGCPurchaseByEmail"/>
+			<class name="TestCases.Magento.GuestGCPurchaseByHand"/>
+			<class name="TestCases.Magento.Loginout"/>
+			<class name="TestCases.Magento.Signup"/>
+			<class name="TestCases.Magento.SignupEmailConfirmationCheck"/>
+			<class name="TestCases.Magento.UpdateBillingInfo"/>
+			<class name="TestCases.SalesRep.SalesSignup"/>
+			<class name="TestCases.SalesRep.UploadTR"/>
+    </classes>
+  </test>
+ </suite>

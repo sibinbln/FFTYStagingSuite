@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="EmailResults" parallel="false">
+  <test name="Result" parallel="false" preserve-order="true" verbose="2">
+    <classes>
+         <class name="TestCases.Common.SendEmail"/>
+    </classes>
+  </test>
+ </suite>
