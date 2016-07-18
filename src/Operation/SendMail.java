@@ -14,7 +14,7 @@ public static void initialize(String reportFileName) throws Exception
 	{
 	String path = System.getProperty("user.dir")+"\\test-output";
 	//String path= "E:/FFTYAutomation/Brandywine/testng-xslt";
-	String[] to={"sibin@neevtech.com"};
+	String[] to={"sibin@ideaapplied.com"};
 	String[] cc={};
 	String[] bcc={};
 	SendMail.sendEmailReport("sibinautomation@gmail.com", "sibsneev132", "smtp.gmail.com", "465", "true", "true", true, "javax.net.ssl.SSLSocketFactory", "false", to, cc, bcc, "Automation Test Result", "Please find attached test result", path, reportFileName);
