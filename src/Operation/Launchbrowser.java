@@ -16,8 +16,7 @@ public class Launchbrowser
 	public static String getBrowserConfig() throws Exception 
 	{
 		String fileName = System.getProperty("user.dir")+"\\BrowserConfig\\config.txt";
-		//"E:/AutomationWorkspace/FFTY/BrowserConfig/config.txt";
-	        String line = null;
+		    String line = null;
 
 	        try {
 	            FileReader fr = new FileReader(fileName);

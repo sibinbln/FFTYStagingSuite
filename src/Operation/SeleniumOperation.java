@@ -42,10 +42,12 @@ public class SeleniumOperation
 			SeleniumOperation.driver = driver;
 			driver.manage().window().maximize();
 			driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
+			//Thread.sleep(5000);
 		}
 	
 	public String execute(Properties p, String operation, String objectName, String objectType, String value) throws Exception 
 		{
+				Thread.sleep(3000);
 				try
 				{
 					if (operation.toUpperCase()== "CLICK")

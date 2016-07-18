@@ -1,2 +1,2 @@
-cd E:\AutomationWorkspace\FFTY
+cd D:\FFTYStag\FFTY
 ant generateReport

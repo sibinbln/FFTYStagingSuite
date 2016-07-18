@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [AutomationSuite]">
+  <test name="Tests(failed)">
+    <classes>
+      <class name="TestCases.Magento.DeleteSubscription">
+        <methods>
+          <include name="ExecutionStatusCheck"/>
+        </methods>
+      </class> <!-- TestCases.Magento.DeleteSubscription -->
+      <class name="TestCases.CRM.ACHRefund">
+        <methods>
+          <include name="testACHRefund"/>
+          <include name="ExecutionStatusCheck"/>
+        </methods>
+      </class> <!-- TestCases.CRM.ACHRefund -->
+      <class name="TestCases.Magento.Customization">
+        <methods>
+          <include name="testCustomization"/>
+          <include name="ExecutionStatusCheck"/>
+        </methods>
+      </class> <!-- TestCases.Magento.Customization -->
+      <class name="TestCases.CRM.DeliveryKeyStatus">
+        <methods>
+          <include name="ExecutionStatusCheck"/>
+        </methods>
+      </class> <!-- TestCases.CRM.DeliveryKeyStatus -->
+      <class name="TestCases.CRM.OTPACHSuccess">
+        <methods>
+          <include name="ExecutionStatusCheck"/>
+        </methods>
+      </class> <!-- TestCases.CRM.OTPACHSuccess -->
+      <class name="TestCases.CRM.GiftCertificateByEmail">
+        <methods>
+          <include name="testGiftCertificateByEmail"/>
+          <include name="ExecutionStatusCheck"/>
+        </methods>
+      </class> <!-- TestCases.CRM.GiftCertificateByEmail -->
+      <class name="TestCases.CRM.OTPACHDecline">
+        <methods>
+          <include name="testOTPACHDecline"/>
+          <include name="ExecutionStatusCheck"/>
+        </methods>
+      </class> <!-- TestCases.CRM.OTPACHDecline -->
+      <class name="TestCases.CRM.OTPCCDecline">
+        <methods>
+          <include name="ExecutionStatusCheck"/>
+        </methods>
+      </class> <!-- TestCases.CRM.OTPCCDecline -->
+      <class name="TestCases.Magento.Loginout">
+        <methods>
+          <include name="ExecutionStatusCheck"/>
+        </methods>
+      </class> <!-- TestCases.Magento.Loginout -->
+      <class name="TestCases.CRM.CheckRefund">
+        <methods>
+          <include name="ExecutionStatusCheck"/>
+          <include name="testCheckRefund"/>
+        </methods>
+      </class> <!-- TestCases.CRM.CheckRefund -->
+      <class name="TestCases.CRM.OrderLevelCredit">
+        <methods>
+          <include name="ExecutionStatusCheck"/>
+        </methods>
+      </class> <!-- TestCases.CRM.OrderLevelCredit -->
+      <class name="TestCases.CRM.GiftCertificateByHand">
+        <methods>
+          <include name="ExecutionStatusCheck"/>
+          <include name="testGiftCertificateByHand"/>
+        </methods>
+      </class> <!-- TestCases.CRM.GiftCertificateByHand -->
+      <class name="TestCases.SalesRep.UploadTR">
+        <methods>
+          <include name="ExecutionStatusCheck"/>
+          <include name="testUploadTR"/>
+        </methods>
+      </class> <!-- TestCases.SalesRep.UploadTR -->
+      <class name="TestCases.CRM.OTPCCSuccess">
+        <methods>
+          <include name="ExecutionStatusCheck"/>
+        </methods>
+      </class> <!-- TestCases.CRM.OTPCCSuccess -->
+      <class name="TestCases.CRM.NSFCheck">
+        <methods>
+          <include name="testNSFCheck"/>
+          <include name="ExecutionStatusCheck"/>
+        </methods>
+      </class> <!-- TestCases.CRM.NSFCheck -->
+      <class name="TestCases.CRM.LateCancel">
+        <methods>
+          <include name="testLateCancel"/>
+          <include name="ExecutionStatusCheck"/>
+        </methods>
+      </class> <!-- TestCases.CRM.LateCancel -->
+      <class name="TestCases.CRM.VacationCancel">
+        <methods>
+          <include name="ExecutionStatusCheck"/>
+          <include name="testVacationCancel"/>
+        </methods>
+      </class> <!-- TestCases.CRM.VacationCancel -->
+      <class name="TestCases.CRM.AccountCancellation">
+        <methods>
+          <include name="ExecutionStatusCheck"/>
+        </methods>
+      </class> <!-- TestCases.CRM.AccountCancellation -->
+      <class name="TestCases.CRM.CustomerCredit">
+        <methods>
+          <include name="ExecutionStatusCheck"/>
+        </methods>
+      </class> <!-- TestCases.CRM.CustomerCredit -->
+      <class name="TestCases.CRM.VacationCreate">
+        <methods>
+          <include name="testVacationCreate"/>
+          <include name="ExecutionStatusCheck"/>
+        </methods>
+      </class> <!-- TestCases.CRM.VacationCreate -->
+      <class name="TestCases.CRM.OrderItemCredit">
+        <methods>
+          <include name="ExecutionStatusCheck"/>
+        </methods>
+      </class> <!-- TestCases.CRM.OrderItemCredit -->
+      <class name="TestCases.Magento.Signup">
+        <methods>
+          <include name="ExecutionStatusCheck"/>
+        </methods>
+      </class> <!-- TestCases.Magento.Signup -->
+      <class name="TestCases.Magento.AddSubscription">
+        <methods>
+          <include name="ExecutionStatusCheck"/>
+        </methods>
+      </class> <!-- TestCases.Magento.AddSubscription -->
+      <class name="TestCases.CRM.NSFACH">
+        <methods>
+          <include name="ExecutionStatusCheck"/>
+        </methods>
+      </class> <!-- TestCases.CRM.NSFACH -->
+      <class name="TestCases.CRM.Reactivation">
+        <methods>
+          <include name="ExecutionStatusCheck"/>
+        </methods>
+      </class> <!-- TestCases.CRM.Reactivation -->
+      <class name="TestCases.Common.ConcurrentLoginSessionCheck">
+        <methods>
+          <include name="testConcurrentLoginSessionCheck"/>
+          <include name="ExecutionStatusCheck"/>
+        </methods>
+      </class> <!-- TestCases.Common.ConcurrentLoginSessionCheck -->
+      <class name="TestCases.Magento.GuestDonateABox">
+        <methods>
+          <include name="ExecutionStatusCheck"/>
+          <include name="testGuestDAB"/>
+        </methods>
+      </class> <!-- TestCases.Magento.GuestDonateABox -->
+      <class name="TestCases.Magento.GuestGCPurchaseByEmail">
+        <methods>
+          <include name="testGuestGCPurchaseByEmail"/>
+          <include name="ExecutionStatusCheck"/>
+        </methods>
+      </class> <!-- TestCases.Magento.GuestGCPurchaseByEmail -->
+      <class name="TestCases.Magento.SignupEmailConfirmationCheck">
+        <methods>
+          <include name="ExecutionStatusCheck"/>
+        </methods>
+      </class> <!-- TestCases.Magento.SignupEmailConfirmationCheck -->
+      <class name="TestCases.ERP.CheckDeposit">
+        <methods>
+          <include name="ExecutionStatusCheck"/>
+        </methods>
+      </class> <!-- TestCases.ERP.CheckDeposit -->
+      <class name="TestCases.CRM.DonationRecurring">
+        <methods>
+          <include name="testDonationRecurring"/>
+          <include name="ExecutionStatusCheck"/>
+        </methods>
+      </class> <!-- TestCases.CRM.DonationRecurring -->
+      <class name="TestCases.Magento.GuestGCPurchaseByHand">
+        <methods>
+          <include name="testGuestGCPurchaseByHand"/>
+          <include name="ExecutionStatusCheck"/>
+        </methods>
+      </class> <!-- TestCases.Magento.GuestGCPurchaseByHand -->
+      <class name="TestCases.Common.VerifyStaticLinks">
+        <methods>
+          <include name="ExecutionStatusCheck"/>
+        </methods>
+      </class> <!-- TestCases.Common.VerifyStaticLinks -->
+      <class name="TestCases.SalesRep.SalesSignup">
+        <methods>
+          <include name="testSalesSignup"/>
+          <include name="ExecutionStatusCheck"/>
+        </methods>
+      </class> <!-- TestCases.SalesRep.SalesSignup -->
+      <class name="TestCases.CRM.CCRefund">
+        <methods>
+          <include name="ExecutionStatusCheck"/>
+          <include name="testCCRefund"/>
+        </methods>
+      </class> <!-- TestCases.CRM.CCRefund -->
+      <class name="TestCases.Magento.UpdateBillingInfo">
+        <methods>
+          <include name="ExecutionStatusCheck"/>
+        </methods>
+      </class> <!-- TestCases.Magento.UpdateBillingInfo -->
+      <class name="TestCases.CRM.CreateTicket">
+        <methods>
+          <include name="ExecutionStatusCheck"/>
+        </methods>
+      </class> <!-- TestCases.CRM.CreateTicket -->
+      <class name="TestCases.CRM.DonationOneTime">
+        <methods>
+          <include name="testdonateonetime"/>
+          <include name="ExecutionStatusCheck"/>
+        </methods>
+      </class> <!-- TestCases.CRM.DonationOneTime -->
+    </classes>
+  </test> <!-- Tests(failed) -->
+</suite> <!-- Failed suite [AutomationSuite] -->

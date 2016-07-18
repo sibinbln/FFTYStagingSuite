@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="228451" started-at="2016-06-24T08:28:06Z" finished-at="2016-06-24T08:31:54Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="228451" started-at="2016-06-24T08:28:06Z" finished-at="2016-06-24T08:31:54Z">
+      <class name="TestCases.Magento.Signup">
+        <test-method status="PASS" signature="ExecutionStatusCheck()[pri:0, instance:TestCases.Magento.Signup@6500df86]" name="ExecutionStatusCheck" is-config="true" duration-ms="3200" started-at="2016-06-24T13:58:06Z" finished-at="2016-06-24T13:58:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExecutionStatusCheck -->
+        <test-method status="PASS" signature="testSignup()[pri:0, instance:TestCases.Magento.Signup@6500df86]" name="testSignup" duration-ms="225224" started-at="2016-06-24T13:58:09Z" finished-at="2016-06-24T14:01:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignup -->
+      </class> <!-- TestCases.Magento.Signup -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
