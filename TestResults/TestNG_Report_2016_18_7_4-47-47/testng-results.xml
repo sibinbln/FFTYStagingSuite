@@ -1,0 +1,1649 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="37" failed="0" total="38" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="AutomationSuite" duration-ms="208072" started-at="2016-07-18T11:14:06Z" finished-at="2016-07-18T11:17:34Z">
+    <groups>
+    </groups>
+    <test name="Tests" duration-ms="208072" started-at="2016-07-18T11:14:06Z" finished-at="2016-07-18T11:17:34Z">
+      <class name="TestCases.SalesRep.UploadTR">
+        <test-method status="FAIL" signature="ExecutionStatusCheck()[pri:0, instance:TestCases.SalesRep.UploadTR@4157f54e]" name="ExecutionStatusCheck" is-config="true" duration-ms="0" started-at="2016-07-18T16:47:34Z" finished-at="2016-07-18T16:47:34Z">
+          <exception class="java.lang.Exception">
+            <message>
+              <![CDATA[TestCases.SalesRep.UploadTR : Execution status is set to 'No' in 'ExecutionChecker.xls']]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Exception: TestCases.SalesRep.UploadTR : Execution status is set to 'No' in 'ExecutionChecker.xls'
+	at Operation.ExecutionStatusChecker.executetestcase(ExecutionStatusChecker.java:62)
+	at TestCases.SalesRep.UploadTR.ExecutionStatusCheck(UploadTR.java:31)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:170)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:104)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Exception -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExecutionStatusCheck -->
+        <test-method status="SKIP" signature="testUploadTR()[pri:0, instance:TestCases.SalesRep.UploadTR@4157f54e]" name="testUploadTR" duration-ms="0" started-at="2016-07-18T16:47:34Z" finished-at="2016-07-18T16:47:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUploadTR -->
+      </class> <!-- TestCases.SalesRep.UploadTR -->
+      <class name="TestCases.SalesRep.SalesSignup">
+        <test-method status="FAIL" signature="ExecutionStatusCheck()[pri:0, instance:TestCases.SalesRep.SalesSignup@327471b5]" name="ExecutionStatusCheck" is-config="true" duration-ms="0" started-at="2016-07-18T16:47:34Z" finished-at="2016-07-18T16:47:34Z">
+          <exception class="java.lang.Exception">
+            <message>
+              <![CDATA[TestCases.SalesRep.SalesSignup : Execution status is set to 'No' in 'ExecutionChecker.xls']]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Exception: TestCases.SalesRep.SalesSignup : Execution status is set to 'No' in 'ExecutionChecker.xls'
+	at Operation.ExecutionStatusChecker.executetestcase(ExecutionStatusChecker.java:62)
+	at TestCases.SalesRep.SalesSignup.ExecutionStatusCheck(SalesSignup.java:29)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:170)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:104)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Exception -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExecutionStatusCheck -->
+        <test-method status="SKIP" signature="testSalesSignup()[pri:0, instance:TestCases.SalesRep.SalesSignup@327471b5]" name="testSalesSignup" duration-ms="1" started-at="2016-07-18T16:47:34Z" finished-at="2016-07-18T16:47:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSalesSignup -->
+      </class> <!-- TestCases.SalesRep.SalesSignup -->
+      <class name="TestCases.CRM.LateCancel">
+        <test-method status="FAIL" signature="ExecutionStatusCheck()[pri:0, instance:TestCases.CRM.LateCancel@5f2050f6]" name="ExecutionStatusCheck" is-config="true" duration-ms="0" started-at="2016-07-18T16:44:07Z" finished-at="2016-07-18T16:44:07Z">
+          <exception class="java.lang.Exception">
+            <message>
+              <![CDATA[TestCases.CRM.LateCancel : Execution status is set to 'No' in 'ExecutionChecker.xls']]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Exception: TestCases.CRM.LateCancel : Execution status is set to 'No' in 'ExecutionChecker.xls'
+	at Operation.ExecutionStatusChecker.executetestcase(ExecutionStatusChecker.java:62)
+	at TestCases.CRM.LateCancel.ExecutionStatusCheck(LateCancel.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:170)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:104)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Exception -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExecutionStatusCheck -->
+        <test-method status="SKIP" signature="testLateCancel()[pri:0, instance:TestCases.CRM.LateCancel@5f2050f6]" name="testLateCancel" duration-ms="0" started-at="2016-07-18T16:44:07Z" finished-at="2016-07-18T16:44:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLateCancel -->
+      </class> <!-- TestCases.CRM.LateCancel -->
+      <class name="TestCases.CRM.CustomerCredit">
+        <test-method status="FAIL" signature="ExecutionStatusCheck()[pri:0, instance:TestCases.CRM.CustomerCredit@73f792cf]" name="ExecutionStatusCheck" is-config="true" duration-ms="0" started-at="2016-07-18T16:44:07Z" finished-at="2016-07-18T16:44:07Z">
+          <exception class="java.lang.Exception">
+            <message>
+              <![CDATA[TestCases.CRM.CustomerCredit : Execution status is set to 'No' in 'ExecutionChecker.xls']]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Exception: TestCases.CRM.CustomerCredit : Execution status is set to 'No' in 'ExecutionChecker.xls'
+	at Operation.ExecutionStatusChecker.executetestcase(ExecutionStatusChecker.java:62)
+	at TestCases.CRM.CustomerCredit.ExecutionStatusCheck(CustomerCredit.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:170)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:104)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Exception -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExecutionStatusCheck -->
+        <test-method status="SKIP" signature="testCustomerCredit()[pri:0, instance:TestCases.CRM.CustomerCredit@73f792cf]" name="testCustomerCredit" duration-ms="0" started-at="2016-07-18T16:44:07Z" finished-at="2016-07-18T16:44:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCustomerCredit -->
+      </class> <!-- TestCases.CRM.CustomerCredit -->
+      <class name="TestCases.CRM.Reactivation">
+        <test-method status="FAIL" signature="ExecutionStatusCheck()[pri:0, instance:TestCases.CRM.Reactivation@246ae04d]" name="ExecutionStatusCheck" is-config="true" duration-ms="0" started-at="2016-07-18T16:44:07Z" finished-at="2016-07-18T16:44:07Z">
+          <exception class="java.lang.Exception">
+            <message>
+              <![CDATA[TestCases.CRM.Reactivation : Execution status is set to 'No' in 'ExecutionChecker.xls']]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Exception: TestCases.CRM.Reactivation : Execution status is set to 'No' in 'ExecutionChecker.xls'
+	at Operation.ExecutionStatusChecker.executetestcase(ExecutionStatusChecker.java:62)
+	at TestCases.CRM.Reactivation.ExecutionStatusCheck(Reactivation.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:170)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:104)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Exception -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExecutionStatusCheck -->
+        <test-method status="SKIP" signature="testReactivation()[pri:0, instance:TestCases.CRM.Reactivation@246ae04d]" name="testReactivation" duration-ms="0" started-at="2016-07-18T16:44:07Z" finished-at="2016-07-18T16:44:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testReactivation -->
+      </class> <!-- TestCases.CRM.Reactivation -->
+      <class name="TestCases.CRM.CreateTicket">
+        <test-method status="FAIL" signature="ExecutionStatusCheck()[pri:0, instance:TestCases.CRM.CreateTicket@2ef9b8bc]" name="ExecutionStatusCheck" is-config="true" duration-ms="0" started-at="2016-07-18T16:44:08Z" finished-at="2016-07-18T16:44:08Z">
+          <exception class="java.lang.Exception">
+            <message>
+              <![CDATA[TestCases.CRM.CreateTicket : Execution status is set to 'No' in 'ExecutionChecker.xls']]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Exception: TestCases.CRM.CreateTicket : Execution status is set to 'No' in 'ExecutionChecker.xls'
+	at Operation.ExecutionStatusChecker.executetestcase(ExecutionStatusChecker.java:62)
+	at TestCases.CRM.CreateTicket.ExecutionStatusCheck(CreateTicket.java:29)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:170)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:104)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Exception -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExecutionStatusCheck -->
+        <test-method status="SKIP" signature="testCreateTicket()[pri:0, instance:TestCases.CRM.CreateTicket@2ef9b8bc]" name="testCreateTicket" duration-ms="0" started-at="2016-07-18T16:44:08Z" finished-at="2016-07-18T16:44:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateTicket -->
+      </class> <!-- TestCases.CRM.CreateTicket -->
+      <class name="TestCases.Common.VerifyStaticLinks">
+        <test-method status="FAIL" signature="ExecutionStatusCheck()[pri:0, instance:TestCases.Common.VerifyStaticLinks@79b4d0f]" name="ExecutionStatusCheck" is-config="true" duration-ms="0" started-at="2016-07-18T16:44:06Z" finished-at="2016-07-18T16:44:06Z">
+          <exception class="java.lang.Exception">
+            <message>
+              <![CDATA[TestCases.Common.VerifyStaticLinks : Execution status is set to 'No' in 'ExecutionChecker.xls']]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Exception: TestCases.Common.VerifyStaticLinks : Execution status is set to 'No' in 'ExecutionChecker.xls'
+	at Operation.ExecutionStatusChecker.executetestcase(ExecutionStatusChecker.java:62)
+	at TestCases.Common.VerifyStaticLinks.ExecutionStatusCheck(VerifyStaticLinks.java:29)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:170)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:104)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Exception -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExecutionStatusCheck -->
+        <test-method status="SKIP" signature="testVerifyStaticLinks()[pri:0, instance:TestCases.Common.VerifyStaticLinks@79b4d0f]" name="testVerifyStaticLinks" duration-ms="0" started-at="2016-07-18T16:44:07Z" finished-at="2016-07-18T16:44:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyStaticLinks -->
+      </class> <!-- TestCases.Common.VerifyStaticLinks -->
+      <class name="TestCases.Magento.GuestDonateABox">
+        <test-method status="FAIL" signature="ExecutionStatusCheck()[pri:0, instance:TestCases.Magento.GuestDonateABox@6fb554cc]" name="ExecutionStatusCheck" is-config="true" duration-ms="0" started-at="2016-07-18T16:44:08Z" finished-at="2016-07-18T16:44:08Z">
+          <exception class="java.lang.Exception">
+            <message>
+              <![CDATA[TestCases.Magento.GuestDonateABox : Execution status is set to 'No' in 'ExecutionChecker.xls']]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Exception: TestCases.Magento.GuestDonateABox : Execution status is set to 'No' in 'ExecutionChecker.xls'
+	at Operation.ExecutionStatusChecker.executetestcase(ExecutionStatusChecker.java:62)
+	at TestCases.Magento.GuestDonateABox.ExecutionStatusCheck(GuestDonateABox.java:34)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:170)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:104)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Exception -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExecutionStatusCheck -->
+        <test-method status="SKIP" signature="testGuestDAB()[pri:0, instance:TestCases.Magento.GuestDonateABox@6fb554cc]" name="testGuestDAB" duration-ms="0" started-at="2016-07-18T16:44:08Z" finished-at="2016-07-18T16:44:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGuestDAB -->
+      </class> <!-- TestCases.Magento.GuestDonateABox -->
+      <class name="TestCases.Magento.Signup">
+        <test-method status="PASS" signature="ExecutionStatusCheck()[pri:0, instance:TestCases.Magento.Signup@68837a77]" name="ExecutionStatusCheck" is-config="true" duration-ms="8874" started-at="2016-07-18T16:44:08Z" finished-at="2016-07-18T16:44:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExecutionStatusCheck -->
+        <test-method status="PASS" signature="testSignup()[pri:0, instance:TestCases.Magento.Signup@68837a77]" name="testSignup" duration-ms="197270" started-at="2016-07-18T16:44:17Z" finished-at="2016-07-18T16:47:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignup -->
+      </class> <!-- TestCases.Magento.Signup -->
+      <class name="TestCases.Common.ConcurrentLoginSessionCheck">
+        <test-method status="FAIL" signature="ExecutionStatusCheck()[pri:0, instance:TestCases.Common.ConcurrentLoginSessionCheck@6b2fad11]" name="ExecutionStatusCheck" is-config="true" duration-ms="0" started-at="2016-07-18T16:44:07Z" finished-at="2016-07-18T16:44:07Z">
+          <exception class="java.lang.Exception">
+            <message>
+              <![CDATA[TestCases.Common.ConcurrentLoginSessionCheck : Execution status is set to 'No' in 'ExecutionChecker.xls']]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Exception: TestCases.Common.ConcurrentLoginSessionCheck : Execution status is set to 'No' in 'ExecutionChecker.xls'
+	at Operation.ExecutionStatusChecker.executetestcase(ExecutionStatusChecker.java:62)
+	at TestCases.Common.ConcurrentLoginSessionCheck.ExecutionStatusCheck(ConcurrentLoginSessionCheck.java:29)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:170)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:104)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Exception -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExecutionStatusCheck -->
+        <test-method status="SKIP" signature="testConcurrentLoginSessionCheck()[pri:0, instance:TestCases.Common.ConcurrentLoginSessionCheck@6b2fad11]" name="testConcurrentLoginSessionCheck" duration-ms="1" started-at="2016-07-18T16:44:07Z" finished-at="2016-07-18T16:44:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testConcurrentLoginSessionCheck -->
+      </class> <!-- TestCases.Common.ConcurrentLoginSessionCheck -->
+      <class name="TestCases.CRM.GiftCertificateByEmail">
+        <test-method status="FAIL" signature="ExecutionStatusCheck()[pri:0, instance:TestCases.CRM.GiftCertificateByEmail@42d3bd8b]" name="ExecutionStatusCheck" is-config="true" duration-ms="0" started-at="2016-07-18T16:44:07Z" finished-at="2016-07-18T16:44:07Z">
+          <exception class="java.lang.Exception">
+            <message>
+              <![CDATA[TestCases.CRM.GiftCertificateByEmail : Execution status is set to 'No' in 'ExecutionChecker.xls']]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Exception: TestCases.CRM.GiftCertificateByEmail : Execution status is set to 'No' in 'ExecutionChecker.xls'
+	at Operation.ExecutionStatusChecker.executetestcase(ExecutionStatusChecker.java:62)
+	at TestCases.CRM.GiftCertificateByEmail.ExecutionStatusCheck(GiftCertificateByEmail.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:170)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:104)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Exception -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExecutionStatusCheck -->
+        <test-method status="SKIP" signature="testGiftCertificateByEmail()[pri:0, instance:TestCases.CRM.GiftCertificateByEmail@42d3bd8b]" name="testGiftCertificateByEmail" duration-ms="0" started-at="2016-07-18T16:44:07Z" finished-at="2016-07-18T16:44:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGiftCertificateByEmail -->
+      </class> <!-- TestCases.CRM.GiftCertificateByEmail -->
+      <class name="TestCases.CRM.NSFACH">
+        <test-method status="FAIL" signature="ExecutionStatusCheck()[pri:0, instance:TestCases.CRM.NSFACH@783e6358]" name="ExecutionStatusCheck" is-config="true" duration-ms="0" started-at="2016-07-18T16:44:07Z" finished-at="2016-07-18T16:44:07Z">
+          <exception class="java.lang.Exception">
+            <message>
+              <![CDATA[TestCases.CRM.NSFACH : Execution status is set to 'No' in 'ExecutionChecker.xls']]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Exception: TestCases.CRM.NSFACH : Execution status is set to 'No' in 'ExecutionChecker.xls'
+	at Operation.ExecutionStatusChecker.executetestcase(ExecutionStatusChecker.java:62)
+	at TestCases.CRM.NSFACH.ExecutionStatusCheck(NSFACH.java:34)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:170)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:104)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Exception -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExecutionStatusCheck -->
+        <test-method status="SKIP" signature="testNSFACH()[pri:0, instance:TestCases.CRM.NSFACH@783e6358]" name="testNSFACH" duration-ms="0" started-at="2016-07-18T16:44:07Z" finished-at="2016-07-18T16:44:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNSFACH -->
+      </class> <!-- TestCases.CRM.NSFACH -->
+      <class name="TestCases.Magento.DeleteSubscription">
+        <test-method status="FAIL" signature="ExecutionStatusCheck()[pri:0, instance:TestCases.Magento.DeleteSubscription@3f2a3a5]" name="ExecutionStatusCheck" is-config="true" duration-ms="0" started-at="2016-07-18T16:44:08Z" finished-at="2016-07-18T16:44:08Z">
+          <exception class="java.lang.Exception">
+            <message>
+              <![CDATA[TestCases.Magento.DeleteSubscription : Execution status is set to 'No' in 'ExecutionChecker.xls']]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Exception: TestCases.Magento.DeleteSubscription : Execution status is set to 'No' in 'ExecutionChecker.xls'
+	at Operation.ExecutionStatusChecker.executetestcase(ExecutionStatusChecker.java:62)
+	at TestCases.Magento.DeleteSubscription.ExecutionStatusCheck(DeleteSubscription.java:37)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:170)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:104)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Exception -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExecutionStatusCheck -->
+        <test-method status="SKIP" signature="testDeleteSubscription()[pri:0, instance:TestCases.Magento.DeleteSubscription@3f2a3a5]" name="testDeleteSubscription" duration-ms="0" started-at="2016-07-18T16:44:08Z" finished-at="2016-07-18T16:44:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteSubscription -->
+      </class> <!-- TestCases.Magento.DeleteSubscription -->
+      <class name="TestCases.CRM.DeliveryKeyStatus">
+        <test-method status="FAIL" signature="ExecutionStatusCheck()[pri:0, instance:TestCases.CRM.DeliveryKeyStatus@2ed94a8b]" name="ExecutionStatusCheck" is-config="true" duration-ms="0" started-at="2016-07-18T16:44:07Z" finished-at="2016-07-18T16:44:07Z">
+          <exception class="java.lang.Exception">
+            <message>
+              <![CDATA[TestCases.CRM.DeliveryKeyStatus : Execution status is set to 'No' in 'ExecutionChecker.xls']]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Exception: TestCases.CRM.DeliveryKeyStatus : Execution status is set to 'No' in 'ExecutionChecker.xls'
+	at Operation.ExecutionStatusChecker.executetestcase(ExecutionStatusChecker.java:62)
+	at TestCases.CRM.DeliveryKeyStatus.ExecutionStatusCheck(DeliveryKeyStatus.java:31)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:170)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:104)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Exception -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExecutionStatusCheck -->
+        <test-method status="SKIP" signature="testDeliveryKeyStatus()[pri:0, instance:TestCases.CRM.DeliveryKeyStatus@2ed94a8b]" name="testDeliveryKeyStatus" duration-ms="0" started-at="2016-07-18T16:44:07Z" finished-at="2016-07-18T16:44:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeliveryKeyStatus -->
+      </class> <!-- TestCases.CRM.DeliveryKeyStatus -->
+      <class name="TestCases.CRM.CheckRefund">
+        <test-method status="FAIL" signature="ExecutionStatusCheck()[pri:0, instance:TestCases.CRM.CheckRefund@1324409e]" name="ExecutionStatusCheck" is-config="true" duration-ms="0" started-at="2016-07-18T16:44:07Z" finished-at="2016-07-18T16:44:07Z">
+          <exception class="java.lang.Exception">
+            <message>
+              <![CDATA[TestCases.CRM.CheckRefund : Execution status is set to 'No' in 'ExecutionChecker.xls']]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Exception: TestCases.CRM.CheckRefund : Execution status is set to 'No' in 'ExecutionChecker.xls'
+	at Operation.ExecutionStatusChecker.executetestcase(ExecutionStatusChecker.java:62)
+	at TestCases.CRM.CheckRefund.ExecutionStatusCheck(CheckRefund.java:31)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:170)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:104)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Exception -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExecutionStatusCheck -->
+        <test-method status="SKIP" signature="testCheckRefund()[pri:0, instance:TestCases.CRM.CheckRefund@1324409e]" name="testCheckRefund" duration-ms="0" started-at="2016-07-18T16:44:07Z" finished-at="2016-07-18T16:44:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCheckRefund -->
+      </class> <!-- TestCases.CRM.CheckRefund -->
+      <class name="TestCases.CRM.AccountCancellation">
+        <test-method status="FAIL" signature="ExecutionStatusCheck()[pri:0, instance:TestCases.CRM.AccountCancellation@79698539]" name="ExecutionStatusCheck" is-config="true" duration-ms="0" started-at="2016-07-18T16:44:07Z" finished-at="2016-07-18T16:44:07Z">
+          <exception class="java.lang.Exception">
+            <message>
+              <![CDATA[TestCases.CRM.AccountCancellation : Execution status is set to 'No' in 'ExecutionChecker.xls']]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Exception: TestCases.CRM.AccountCancellation : Execution status is set to 'No' in 'ExecutionChecker.xls'
+	at Operation.ExecutionStatusChecker.executetestcase(ExecutionStatusChecker.java:62)
+	at TestCases.CRM.AccountCancellation.ExecutionStatusCheck(AccountCancellation.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:170)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:104)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Exception -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExecutionStatusCheck -->
+        <test-method status="SKIP" signature="testAccountCancellation()[pri:0, instance:TestCases.CRM.AccountCancellation@79698539]" name="testAccountCancellation" duration-ms="0" started-at="2016-07-18T16:44:07Z" finished-at="2016-07-18T16:44:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAccountCancellation -->
+      </class> <!-- TestCases.CRM.AccountCancellation -->
+      <class name="TestCases.Magento.Loginout">
+        <test-method status="FAIL" signature="ExecutionStatusCheck()[pri:0, instance:TestCases.Magento.Loginout@2d554825]" name="ExecutionStatusCheck" is-config="true" duration-ms="0" started-at="2016-07-18T16:44:08Z" finished-at="2016-07-18T16:44:08Z">
+          <exception class="java.lang.Exception">
+            <message>
+              <![CDATA[TestCases.Magento.Loginout : Execution status is set to 'No' in 'ExecutionChecker.xls']]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Exception: TestCases.Magento.Loginout : Execution status is set to 'No' in 'ExecutionChecker.xls'
+	at Operation.ExecutionStatusChecker.executetestcase(ExecutionStatusChecker.java:62)
+	at TestCases.Magento.Loginout.ExecutionStatusCheck(Loginout.java:29)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:170)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:104)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Exception -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExecutionStatusCheck -->
+        <test-method status="SKIP" signature="testLoginout()[pri:0, instance:TestCases.Magento.Loginout@2d554825]" name="testLoginout" duration-ms="0" started-at="2016-07-18T16:44:08Z" finished-at="2016-07-18T16:44:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginout -->
+      </class> <!-- TestCases.Magento.Loginout -->
+      <class name="TestCases.CRM.VacationCancel">
+        <test-method status="FAIL" signature="ExecutionStatusCheck()[pri:0, instance:TestCases.CRM.VacationCancel@62043840]" name="ExecutionStatusCheck" is-config="true" duration-ms="0" started-at="2016-07-18T16:44:07Z" finished-at="2016-07-18T16:44:07Z">
+          <exception class="java.lang.Exception">
+            <message>
+              <![CDATA[TestCases.CRM.VacationCancel : Execution status is set to 'No' in 'ExecutionChecker.xls']]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Exception: TestCases.CRM.VacationCancel : Execution status is set to 'No' in 'ExecutionChecker.xls'
+	at Operation.ExecutionStatusChecker.executetestcase(ExecutionStatusChecker.java:62)
+	at TestCases.CRM.VacationCancel.ExecutionStatusCheck(VacationCancel.java:27)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:170)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:104)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Exception -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExecutionStatusCheck -->
+        <test-method status="SKIP" signature="testVacationCancel()[pri:0, instance:TestCases.CRM.VacationCancel@62043840]" name="testVacationCancel" duration-ms="0" started-at="2016-07-18T16:44:08Z" finished-at="2016-07-18T16:44:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVacationCancel -->
+      </class> <!-- TestCases.CRM.VacationCancel -->
+      <class name="TestCases.Magento.AddSubscription">
+        <test-method status="FAIL" signature="ExecutionStatusCheck()[pri:0, instance:TestCases.Magento.AddSubscription@60addb54]" name="ExecutionStatusCheck" is-config="true" duration-ms="0" started-at="2016-07-18T16:44:08Z" finished-at="2016-07-18T16:44:08Z">
+          <exception class="java.lang.Exception">
+            <message>
+              <![CDATA[TestCases.Magento.AddSubscription : Execution status is set to 'No' in 'ExecutionChecker.xls']]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Exception: TestCases.Magento.AddSubscription : Execution status is set to 'No' in 'ExecutionChecker.xls'
+	at Operation.ExecutionStatusChecker.executetestcase(ExecutionStatusChecker.java:62)
+	at TestCases.Magento.AddSubscription.ExecutionStatusCheck(AddSubscription.java:30)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:170)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:104)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Exception -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExecutionStatusCheck -->
+        <test-method status="SKIP" signature="testAddSubscription()[pri:0, instance:TestCases.Magento.AddSubscription@60addb54]" name="testAddSubscription" duration-ms="0" started-at="2016-07-18T16:44:08Z" finished-at="2016-07-18T16:44:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddSubscription -->
+      </class> <!-- TestCases.Magento.AddSubscription -->
+      <class name="TestCases.Magento.GuestGCPurchaseByHand">
+        <test-method status="FAIL" signature="ExecutionStatusCheck()[pri:0, instance:TestCases.Magento.GuestGCPurchaseByHand@77b52d12]" name="ExecutionStatusCheck" is-config="true" duration-ms="0" started-at="2016-07-18T16:44:08Z" finished-at="2016-07-18T16:44:08Z">
+          <exception class="java.lang.Exception">
+            <message>
+              <![CDATA[TestCases.Magento.GuestGCPurchaseByHand : Execution status is set to 'No' in 'ExecutionChecker.xls']]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Exception: TestCases.Magento.GuestGCPurchaseByHand : Execution status is set to 'No' in 'ExecutionChecker.xls'
+	at Operation.ExecutionStatusChecker.executetestcase(ExecutionStatusChecker.java:62)
+	at TestCases.Magento.GuestGCPurchaseByHand.ExecutionStatusCheck(GuestGCPurchaseByHand.java:32)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:170)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:104)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Exception -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExecutionStatusCheck -->
+        <test-method status="SKIP" signature="testGuestGCPurchaseByHand()[pri:0, instance:TestCases.Magento.GuestGCPurchaseByHand@77b52d12]" name="testGuestGCPurchaseByHand" duration-ms="0" started-at="2016-07-18T16:44:08Z" finished-at="2016-07-18T16:44:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGuestGCPurchaseByHand -->
+      </class> <!-- TestCases.Magento.GuestGCPurchaseByHand -->
+      <class name="TestCases.Magento.Customization">
+        <test-method status="FAIL" signature="ExecutionStatusCheck()[pri:0, instance:TestCases.Magento.Customization@4cb2c100]" name="ExecutionStatusCheck" is-config="true" duration-ms="0" started-at="2016-07-18T16:44:08Z" finished-at="2016-07-18T16:44:08Z">
+          <exception class="java.lang.Exception">
+            <message>
+              <![CDATA[TestCases.Magento.Customization : Execution status is set to 'No' in 'ExecutionChecker.xls']]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Exception: TestCases.Magento.Customization : Execution status is set to 'No' in 'ExecutionChecker.xls'
+	at Operation.ExecutionStatusChecker.executetestcase(ExecutionStatusChecker.java:62)
+	at TestCases.Magento.Customization.ExecutionStatusCheck(Customization.java:36)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:170)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:104)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Exception -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExecutionStatusCheck -->
+        <test-method status="SKIP" signature="testCustomization()[pri:0, instance:TestCases.Magento.Customization@4cb2c100]" name="testCustomization" duration-ms="0" started-at="2016-07-18T16:44:08Z" finished-at="2016-07-18T16:44:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCustomization -->
+      </class> <!-- TestCases.Magento.Customization -->
+      <class name="TestCases.Magento.GuestGCPurchaseByEmail">
+        <test-method status="FAIL" signature="ExecutionStatusCheck()[pri:0, instance:TestCases.Magento.GuestGCPurchaseByEmail@614c5515]" name="ExecutionStatusCheck" is-config="true" duration-ms="0" started-at="2016-07-18T16:44:08Z" finished-at="2016-07-18T16:44:08Z">
+          <exception class="java.lang.Exception">
+            <message>
+              <![CDATA[TestCases.Magento.GuestGCPurchaseByEmail : Execution status is set to 'No' in 'ExecutionChecker.xls']]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Exception: TestCases.Magento.GuestGCPurchaseByEmail : Execution status is set to 'No' in 'ExecutionChecker.xls'
+	at Operation.ExecutionStatusChecker.executetestcase(ExecutionStatusChecker.java:62)
+	at TestCases.Magento.GuestGCPurchaseByEmail.ExecutionStatusCheck(GuestGCPurchaseByEmail.java:32)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:170)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:104)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Exception -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExecutionStatusCheck -->
+        <test-method status="SKIP" signature="testGuestGCPurchaseByEmail()[pri:0, instance:TestCases.Magento.GuestGCPurchaseByEmail@614c5515]" name="testGuestGCPurchaseByEmail" duration-ms="0" started-at="2016-07-18T16:44:08Z" finished-at="2016-07-18T16:44:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGuestGCPurchaseByEmail -->
+      </class> <!-- TestCases.Magento.GuestGCPurchaseByEmail -->
+      <class name="TestCases.CRM.NSFCheck">
+        <test-method status="FAIL" signature="ExecutionStatusCheck()[pri:0, instance:TestCases.CRM.NSFCheck@1e67b872]" name="ExecutionStatusCheck" is-config="true" duration-ms="0" started-at="2016-07-18T16:44:08Z" finished-at="2016-07-18T16:44:08Z">
+          <exception class="java.lang.Exception">
+            <message>
+              <![CDATA[TestCases.CRM.NSFCheck : Execution status is set to 'No' in 'ExecutionChecker.xls']]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Exception: TestCases.CRM.NSFCheck : Execution status is set to 'No' in 'ExecutionChecker.xls'
+	at Operation.ExecutionStatusChecker.executetestcase(ExecutionStatusChecker.java:62)
+	at TestCases.CRM.NSFCheck.ExecutionStatusCheck(NSFCheck.java:35)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:170)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:104)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Exception -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExecutionStatusCheck -->
+        <test-method status="SKIP" signature="testNSFCheck()[pri:0, instance:TestCases.CRM.NSFCheck@1e67b872]" name="testNSFCheck" duration-ms="0" started-at="2016-07-18T16:44:08Z" finished-at="2016-07-18T16:44:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNSFCheck -->
+      </class> <!-- TestCases.CRM.NSFCheck -->
+      <class name="TestCases.CRM.OTPCCSuccess">
+        <test-method status="FAIL" signature="ExecutionStatusCheck()[pri:0, instance:TestCases.CRM.OTPCCSuccess@180bc464]" name="ExecutionStatusCheck" is-config="true" duration-ms="0" started-at="2016-07-18T16:44:07Z" finished-at="2016-07-18T16:44:07Z">
+          <exception class="java.lang.Exception">
+            <message>
+              <![CDATA[TestCases.CRM.OTPCCSuccess : Execution status is set to 'No' in 'ExecutionChecker.xls']]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Exception: TestCases.CRM.OTPCCSuccess : Execution status is set to 'No' in 'ExecutionChecker.xls'
+	at Operation.ExecutionStatusChecker.executetestcase(ExecutionStatusChecker.java:62)
+	at TestCases.CRM.OTPCCSuccess.ExecutionStatusCheck(OTPCCSuccess.java:29)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:170)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:104)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Exception -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExecutionStatusCheck -->
+        <test-method status="SKIP" signature="testOTPSuccess()[pri:0, instance:TestCases.CRM.OTPCCSuccess@180bc464]" name="testOTPSuccess" duration-ms="0" started-at="2016-07-18T16:44:07Z" finished-at="2016-07-18T16:44:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOTPSuccess -->
+      </class> <!-- TestCases.CRM.OTPCCSuccess -->
+      <class name="TestCases.CRM.GiftCertificateByHand">
+        <test-method status="FAIL" signature="ExecutionStatusCheck()[pri:0, instance:TestCases.CRM.GiftCertificateByHand@26ba2a48]" name="ExecutionStatusCheck" is-config="true" duration-ms="0" started-at="2016-07-18T16:44:07Z" finished-at="2016-07-18T16:44:07Z">
+          <exception class="java.lang.Exception">
+            <message>
+              <![CDATA[TestCases.CRM.GiftCertificateByHand : Execution status is set to 'No' in 'ExecutionChecker.xls']]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Exception: TestCases.CRM.GiftCertificateByHand : Execution status is set to 'No' in 'ExecutionChecker.xls'
+	at Operation.ExecutionStatusChecker.executetestcase(ExecutionStatusChecker.java:62)
+	at TestCases.CRM.GiftCertificateByHand.ExecutionStatusCheck(GiftCertificateByHand.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:170)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:104)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Exception -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExecutionStatusCheck -->
+        <test-method status="SKIP" signature="testGiftCertificateByHand()[pri:0, instance:TestCases.CRM.GiftCertificateByHand@26ba2a48]" name="testGiftCertificateByHand" duration-ms="0" started-at="2016-07-18T16:44:07Z" finished-at="2016-07-18T16:44:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGiftCertificateByHand -->
+      </class> <!-- TestCases.CRM.GiftCertificateByHand -->
+      <class name="TestCases.CRM.OTPACHSuccess">
+        <test-method status="FAIL" signature="ExecutionStatusCheck()[pri:0, instance:TestCases.CRM.OTPACHSuccess@4e04a765]" name="ExecutionStatusCheck" is-config="true" duration-ms="0" started-at="2016-07-18T16:44:07Z" finished-at="2016-07-18T16:44:07Z">
+          <exception class="java.lang.Exception">
+            <message>
+              <![CDATA[TestCases.CRM.OTPACHSuccess : Execution status is set to 'No' in 'ExecutionChecker.xls']]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Exception: TestCases.CRM.OTPACHSuccess : Execution status is set to 'No' in 'ExecutionChecker.xls'
+	at Operation.ExecutionStatusChecker.executetestcase(ExecutionStatusChecker.java:62)
+	at TestCases.CRM.OTPACHSuccess.ExecutionStatusCheck(OTPACHSuccess.java:29)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:170)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:104)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Exception -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExecutionStatusCheck -->
+        <test-method status="SKIP" signature="testOTPACHSuccess()[pri:0, instance:TestCases.CRM.OTPACHSuccess@4e04a765]" name="testOTPACHSuccess" duration-ms="0" started-at="2016-07-18T16:44:07Z" finished-at="2016-07-18T16:44:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOTPACHSuccess -->
+      </class> <!-- TestCases.CRM.OTPACHSuccess -->
+      <class name="TestCases.CRM.OTPCCDecline">
+        <test-method status="FAIL" signature="ExecutionStatusCheck()[pri:0, instance:TestCases.CRM.OTPCCDecline@735f7ae5]" name="ExecutionStatusCheck" is-config="true" duration-ms="0" started-at="2016-07-18T16:44:07Z" finished-at="2016-07-18T16:44:07Z">
+          <exception class="java.lang.Exception">
+            <message>
+              <![CDATA[TestCases.CRM.OTPCCDecline : Execution status is set to 'No' in 'ExecutionChecker.xls']]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Exception: TestCases.CRM.OTPCCDecline : Execution status is set to 'No' in 'ExecutionChecker.xls'
+	at Operation.ExecutionStatusChecker.executetestcase(ExecutionStatusChecker.java:62)
+	at TestCases.CRM.OTPCCDecline.ExecutionStatusCheck(OTPCCDecline.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:170)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:104)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Exception -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExecutionStatusCheck -->
+        <test-method status="SKIP" signature="testOTPDecline()[pri:0, instance:TestCases.CRM.OTPCCDecline@735f7ae5]" name="testOTPDecline" duration-ms="0" started-at="2016-07-18T16:44:07Z" finished-at="2016-07-18T16:44:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOTPDecline -->
+      </class> <!-- TestCases.CRM.OTPCCDecline -->
+      <class name="TestCases.CRM.OrderLevelCredit">
+        <test-method status="FAIL" signature="ExecutionStatusCheck()[pri:0, instance:TestCases.CRM.OrderLevelCredit@64616ca2]" name="ExecutionStatusCheck" is-config="true" duration-ms="0" started-at="2016-07-18T16:44:07Z" finished-at="2016-07-18T16:44:07Z">
+          <exception class="java.lang.Exception">
+            <message>
+              <![CDATA[TestCases.CRM.OrderLevelCredit : Execution status is set to 'No' in 'ExecutionChecker.xls']]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Exception: TestCases.CRM.OrderLevelCredit : Execution status is set to 'No' in 'ExecutionChecker.xls'
+	at Operation.ExecutionStatusChecker.executetestcase(ExecutionStatusChecker.java:62)
+	at TestCases.CRM.OrderLevelCredit.ExecutionStatusCheck(OrderLevelCredit.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:170)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:104)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Exception -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExecutionStatusCheck -->
+        <test-method status="SKIP" signature="testOrderLevelCredit()[pri:0, instance:TestCases.CRM.OrderLevelCredit@64616ca2]" name="testOrderLevelCredit" duration-ms="0" started-at="2016-07-18T16:44:07Z" finished-at="2016-07-18T16:44:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOrderLevelCredit -->
+      </class> <!-- TestCases.CRM.OrderLevelCredit -->
+      <class name="TestCases.Magento.UpdateBillingInfo">
+        <test-method status="FAIL" signature="ExecutionStatusCheck()[pri:0, instance:TestCases.Magento.UpdateBillingInfo@3567135c]" name="ExecutionStatusCheck" is-config="true" duration-ms="0" started-at="2016-07-18T16:47:34Z" finished-at="2016-07-18T16:47:34Z">
+          <exception class="java.lang.Exception">
+            <message>
+              <![CDATA[TestCases.Magento.UpdateBillingInfo : Execution status is set to 'No' in 'ExecutionChecker.xls']]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Exception: TestCases.Magento.UpdateBillingInfo : Execution status is set to 'No' in 'ExecutionChecker.xls'
+	at Operation.ExecutionStatusChecker.executetestcase(ExecutionStatusChecker.java:62)
+	at TestCases.Magento.UpdateBillingInfo.ExecutionStatusCheck(UpdateBillingInfo.java:29)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:170)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:104)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Exception -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExecutionStatusCheck -->
+        <test-method status="SKIP" signature="testUpdateBillingInfo()[pri:0, instance:TestCases.Magento.UpdateBillingInfo@3567135c]" name="testUpdateBillingInfo" duration-ms="0" started-at="2016-07-18T16:47:34Z" finished-at="2016-07-18T16:47:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateBillingInfo -->
+      </class> <!-- TestCases.Magento.UpdateBillingInfo -->
+      <class name="TestCases.CRM.DonationOneTime">
+        <test-method status="FAIL" signature="ExecutionStatusCheck()[pri:0, instance:TestCases.CRM.DonationOneTime@38082d64]" name="ExecutionStatusCheck" is-config="true" duration-ms="0" started-at="2016-07-18T16:44:07Z" finished-at="2016-07-18T16:44:07Z">
+          <exception class="java.lang.Exception">
+            <message>
+              <![CDATA[TestCases.CRM.DonationOneTime : Execution status is set to 'No' in 'ExecutionChecker.xls']]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Exception: TestCases.CRM.DonationOneTime : Execution status is set to 'No' in 'ExecutionChecker.xls'
+	at Operation.ExecutionStatusChecker.executetestcase(ExecutionStatusChecker.java:62)
+	at TestCases.CRM.DonationOneTime.ExecutionStatusCheck(DonationOneTime.java:29)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:170)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:104)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Exception -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExecutionStatusCheck -->
+        <test-method status="SKIP" signature="testdonateonetime()[pri:0, instance:TestCases.CRM.DonationOneTime@38082d64]" name="testdonateonetime" duration-ms="1" started-at="2016-07-18T16:44:07Z" finished-at="2016-07-18T16:44:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testdonateonetime -->
+      </class> <!-- TestCases.CRM.DonationOneTime -->
+      <class name="TestCases.CRM.DonationRecurring">
+        <test-method status="FAIL" signature="ExecutionStatusCheck()[pri:0, instance:TestCases.CRM.DonationRecurring@dfd3711]" name="ExecutionStatusCheck" is-config="true" duration-ms="0" started-at="2016-07-18T16:44:07Z" finished-at="2016-07-18T16:44:07Z">
+          <exception class="java.lang.Exception">
+            <message>
+              <![CDATA[TestCases.CRM.DonationRecurring : Execution status is set to 'No' in 'ExecutionChecker.xls']]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Exception: TestCases.CRM.DonationRecurring : Execution status is set to 'No' in 'ExecutionChecker.xls'
+	at Operation.ExecutionStatusChecker.executetestcase(ExecutionStatusChecker.java:62)
+	at TestCases.CRM.DonationRecurring.ExecutionStatusCheck(DonationRecurring.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:170)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:104)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Exception -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExecutionStatusCheck -->
+        <test-method status="SKIP" signature="testDonationRecurring()[pri:0, instance:TestCases.CRM.DonationRecurring@dfd3711]" name="testDonationRecurring" duration-ms="0" started-at="2016-07-18T16:44:07Z" finished-at="2016-07-18T16:44:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDonationRecurring -->
+      </class> <!-- TestCases.CRM.DonationRecurring -->
+      <class name="TestCases.CRM.ACHRefund">
+        <test-method status="FAIL" signature="ExecutionStatusCheck()[pri:0, instance:TestCases.CRM.ACHRefund@17550481]" name="ExecutionStatusCheck" is-config="true" duration-ms="0" started-at="2016-07-18T16:44:07Z" finished-at="2016-07-18T16:44:07Z">
+          <exception class="java.lang.Exception">
+            <message>
+              <![CDATA[TestCases.CRM.ACHRefund : Execution status is set to 'No' in 'ExecutionChecker.xls']]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Exception: TestCases.CRM.ACHRefund : Execution status is set to 'No' in 'ExecutionChecker.xls'
+	at Operation.ExecutionStatusChecker.executetestcase(ExecutionStatusChecker.java:62)
+	at TestCases.CRM.ACHRefund.ExecutionStatusCheck(ACHRefund.java:33)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:170)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:104)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Exception -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExecutionStatusCheck -->
+        <test-method status="SKIP" signature="testACHRefund()[pri:0, instance:TestCases.CRM.ACHRefund@17550481]" name="testACHRefund" duration-ms="0" started-at="2016-07-18T16:44:07Z" finished-at="2016-07-18T16:44:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testACHRefund -->
+      </class> <!-- TestCases.CRM.ACHRefund -->
+      <class name="TestCases.CRM.CCRefund">
+        <test-method status="FAIL" signature="ExecutionStatusCheck()[pri:0, instance:TestCases.CRM.CCRefund@2c6a3f77]" name="ExecutionStatusCheck" is-config="true" duration-ms="0" started-at="2016-07-18T16:44:07Z" finished-at="2016-07-18T16:44:07Z">
+          <exception class="java.lang.Exception">
+            <message>
+              <![CDATA[TestCases.CRM.CCRefund : Execution status is set to 'No' in 'ExecutionChecker.xls']]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Exception: TestCases.CRM.CCRefund : Execution status is set to 'No' in 'ExecutionChecker.xls'
+	at Operation.ExecutionStatusChecker.executetestcase(ExecutionStatusChecker.java:62)
+	at TestCases.CRM.CCRefund.ExecutionStatusCheck(CCRefund.java:34)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:170)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:104)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Exception -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExecutionStatusCheck -->
+        <test-method status="SKIP" signature="testCCRefund()[pri:0, instance:TestCases.CRM.CCRefund@2c6a3f77]" name="testCCRefund" duration-ms="0" started-at="2016-07-18T16:44:07Z" finished-at="2016-07-18T16:44:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCCRefund -->
+      </class> <!-- TestCases.CRM.CCRefund -->
+      <class name="TestCases.CRM.OTPACHDecline">
+        <test-method status="FAIL" signature="ExecutionStatusCheck()[pri:0, instance:TestCases.CRM.OTPACHDecline@13fee20c]" name="ExecutionStatusCheck" is-config="true" duration-ms="0" started-at="2016-07-18T16:44:07Z" finished-at="2016-07-18T16:44:07Z">
+          <exception class="java.lang.Exception">
+            <message>
+              <![CDATA[TestCases.CRM.OTPACHDecline : Execution status is set to 'No' in 'ExecutionChecker.xls']]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Exception: TestCases.CRM.OTPACHDecline : Execution status is set to 'No' in 'ExecutionChecker.xls'
+	at Operation.ExecutionStatusChecker.executetestcase(ExecutionStatusChecker.java:62)
+	at TestCases.CRM.OTPACHDecline.ExecutionStatusCheck(OTPACHDecline.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:170)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:104)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Exception -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExecutionStatusCheck -->
+        <test-method status="SKIP" signature="testOTPACHDecline()[pri:0, instance:TestCases.CRM.OTPACHDecline@13fee20c]" name="testOTPACHDecline" duration-ms="0" started-at="2016-07-18T16:44:07Z" finished-at="2016-07-18T16:44:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOTPACHDecline -->
+      </class> <!-- TestCases.CRM.OTPACHDecline -->
+      <class name="TestCases.Magento.SignupEmailConfirmationCheck">
+        <test-method status="FAIL" signature="ExecutionStatusCheck()[pri:0, instance:TestCases.Magento.SignupEmailConfirmationCheck@6be46e8f]" name="ExecutionStatusCheck" is-config="true" duration-ms="0" started-at="2016-07-18T16:47:34Z" finished-at="2016-07-18T16:47:34Z">
+          <exception class="java.lang.Exception">
+            <message>
+              <![CDATA[TestCases.Magento.SignupEmailConfirmationCheck : Execution status is set to 'No' in 'ExecutionChecker.xls']]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Exception: TestCases.Magento.SignupEmailConfirmationCheck : Execution status is set to 'No' in 'ExecutionChecker.xls'
+	at Operation.ExecutionStatusChecker.executetestcase(ExecutionStatusChecker.java:62)
+	at TestCases.Magento.SignupEmailConfirmationCheck.ExecutionStatusCheck(SignupEmailConfirmationCheck.java:29)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:170)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:104)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Exception -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExecutionStatusCheck -->
+        <test-method status="SKIP" signature="testSignupEmailConfirmationCheck()[pri:0, instance:TestCases.Magento.SignupEmailConfirmationCheck@6be46e8f]" name="testSignupEmailConfirmationCheck" duration-ms="0" started-at="2016-07-18T16:47:34Z" finished-at="2016-07-18T16:47:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignupEmailConfirmationCheck -->
+      </class> <!-- TestCases.Magento.SignupEmailConfirmationCheck -->
+      <class name="TestCases.CRM.VacationCreate">
+        <test-method status="FAIL" signature="ExecutionStatusCheck()[pri:0, instance:TestCases.CRM.VacationCreate@5315b42e]" name="ExecutionStatusCheck" is-config="true" duration-ms="0" started-at="2016-07-18T16:44:08Z" finished-at="2016-07-18T16:44:08Z">
+          <exception class="java.lang.Exception">
+            <message>
+              <![CDATA[TestCases.CRM.VacationCreate : Execution status is set to 'No' in 'ExecutionChecker.xls']]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Exception: TestCases.CRM.VacationCreate : Execution status is set to 'No' in 'ExecutionChecker.xls'
+	at Operation.ExecutionStatusChecker.executetestcase(ExecutionStatusChecker.java:62)
+	at TestCases.CRM.VacationCreate.ExecutionStatusCheck(VacationCreate.java:30)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:170)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:104)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Exception -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExecutionStatusCheck -->
+        <test-method status="SKIP" signature="testVacationCreate()[pri:0, instance:TestCases.CRM.VacationCreate@5315b42e]" name="testVacationCreate" duration-ms="0" started-at="2016-07-18T16:44:08Z" finished-at="2016-07-18T16:44:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVacationCreate -->
+      </class> <!-- TestCases.CRM.VacationCreate -->
+      <class name="TestCases.CRM.OrderItemCredit">
+        <test-method status="FAIL" signature="ExecutionStatusCheck()[pri:0, instance:TestCases.CRM.OrderItemCredit@3b81a1bc]" name="ExecutionStatusCheck" is-config="true" duration-ms="0" started-at="2016-07-18T16:44:07Z" finished-at="2016-07-18T16:44:07Z">
+          <exception class="java.lang.Exception">
+            <message>
+              <![CDATA[TestCases.CRM.OrderItemCredit : Execution status is set to 'No' in 'ExecutionChecker.xls']]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Exception: TestCases.CRM.OrderItemCredit : Execution status is set to 'No' in 'ExecutionChecker.xls'
+	at Operation.ExecutionStatusChecker.executetestcase(ExecutionStatusChecker.java:62)
+	at TestCases.CRM.OrderItemCredit.ExecutionStatusCheck(OrderItemCredit.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:170)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:104)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Exception -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExecutionStatusCheck -->
+        <test-method status="SKIP" signature="testOrderItemCredit()[pri:0, instance:TestCases.CRM.OrderItemCredit@3b81a1bc]" name="testOrderItemCredit" duration-ms="0" started-at="2016-07-18T16:44:07Z" finished-at="2016-07-18T16:44:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOrderItemCredit -->
+      </class> <!-- TestCases.CRM.OrderItemCredit -->
+      <class name="TestCases.ERP.CheckDeposit">
+        <test-method status="FAIL" signature="ExecutionStatusCheck()[pri:0, instance:TestCases.ERP.CheckDeposit@5d624da6]" name="ExecutionStatusCheck" is-config="true" duration-ms="0" started-at="2016-07-18T16:44:08Z" finished-at="2016-07-18T16:44:08Z">
+          <exception class="java.lang.Exception">
+            <message>
+              <![CDATA[TestCases.ERP.CheckDeposit : Execution status is set to 'No' in 'ExecutionChecker.xls']]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Exception: TestCases.ERP.CheckDeposit : Execution status is set to 'No' in 'ExecutionChecker.xls'
+	at Operation.ExecutionStatusChecker.executetestcase(ExecutionStatusChecker.java:62)
+	at TestCases.ERP.CheckDeposit.ExecutionStatusCheck(CheckDeposit.java:30)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:170)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:104)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Exception -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExecutionStatusCheck -->
+        <test-method status="SKIP" signature="testCheckDeposit()[pri:0, instance:TestCases.ERP.CheckDeposit@5d624da6]" name="testCheckDeposit" duration-ms="0" started-at="2016-07-18T16:44:08Z" finished-at="2016-07-18T16:44:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCheckDeposit -->
+      </class> <!-- TestCases.ERP.CheckDeposit -->
+    </test> <!-- Tests -->
+  </suite> <!-- AutomationSuite -->
+</testng-results>

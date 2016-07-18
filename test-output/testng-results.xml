@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="EmailResults" duration-ms="8023" started-at="2016-07-18T11:17:40Z" finished-at="2016-07-18T11:17:48Z">
+    <groups>
+    </groups>
+    <test name="Result" duration-ms="8023" started-at="2016-07-18T11:17:40Z" finished-at="2016-07-18T11:17:48Z">
+      <class name="TestCases.Common.SendEmail">
+        <test-method status="PASS" signature="testsendEmail()[pri:0, instance:TestCases.Common.SendEmail@5594a1b5]" name="testsendEmail" duration-ms="8004" started-at="2016-07-18T16:47:40Z" finished-at="2016-07-18T16:47:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testsendEmail -->
+      </class> <!-- TestCases.Common.SendEmail -->
+    </test> <!-- Result -->
+  </suite> <!-- EmailResults -->
+</testng-results>

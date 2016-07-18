@@ -1,0 +1,1746 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-AutomationSuite">
+              <span class="suite-name border-skipped">AutomationSuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-AutomationSuite">
+                    <span>D:\FFTYStag\FFTY\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-AutomationSuite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-AutomationSuite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-AutomationSuite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-AutomationSuite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-AutomationSuite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-AutomationSuite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">38 methods,  37 skipped,  1 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-AutomationSuite" class="hide-methods skipped suite-AutomationSuite"> (hide)</a> <!-- hide-methods skipped suite-AutomationSuite -->
+                      <a href="#" panel-name="suite-AutomationSuite" class="show-methods skipped suite-AutomationSuite"> (show)</a> <!-- show-methods skipped suite-AutomationSuite -->
+                    </span>
+                    <div class="method-list-content skipped suite-AutomationSuite">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AutomationSuite" title="TestCases.CRM.ACHRefund" hash-for-method="testACHRefund">testACHRefund</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AutomationSuite" title="TestCases.CRM.AccountCancellation" hash-for-method="testAccountCancellation">testAccountCancellation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AutomationSuite" title="TestCases.Magento.AddSubscription" hash-for-method="testAddSubscription">testAddSubscription</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AutomationSuite" title="TestCases.CRM.CCRefund" hash-for-method="testCCRefund">testCCRefund</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AutomationSuite" title="TestCases.ERP.CheckDeposit" hash-for-method="testCheckDeposit">testCheckDeposit</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AutomationSuite" title="TestCases.CRM.CheckRefund" hash-for-method="testCheckRefund">testCheckRefund</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AutomationSuite" title="TestCases.Common.ConcurrentLoginSessionCheck" hash-for-method="testConcurrentLoginSessionCheck">testConcurrentLoginSessionCheck</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AutomationSuite" title="TestCases.CRM.CreateTicket" hash-for-method="testCreateTicket">testCreateTicket</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AutomationSuite" title="TestCases.CRM.CustomerCredit" hash-for-method="testCustomerCredit">testCustomerCredit</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AutomationSuite" title="TestCases.Magento.Customization" hash-for-method="testCustomization">testCustomization</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AutomationSuite" title="TestCases.Magento.DeleteSubscription" hash-for-method="testDeleteSubscription">testDeleteSubscription</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AutomationSuite" title="TestCases.CRM.DeliveryKeyStatus" hash-for-method="testDeliveryKeyStatus">testDeliveryKeyStatus</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AutomationSuite" title="TestCases.CRM.DonationRecurring" hash-for-method="testDonationRecurring">testDonationRecurring</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AutomationSuite" title="TestCases.CRM.GiftCertificateByEmail" hash-for-method="testGiftCertificateByEmail">testGiftCertificateByEmail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AutomationSuite" title="TestCases.CRM.GiftCertificateByHand" hash-for-method="testGiftCertificateByHand">testGiftCertificateByHand</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AutomationSuite" title="TestCases.Magento.GuestDonateABox" hash-for-method="testGuestDAB">testGuestDAB</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AutomationSuite" title="TestCases.Magento.GuestGCPurchaseByEmail" hash-for-method="testGuestGCPurchaseByEmail">testGuestGCPurchaseByEmail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AutomationSuite" title="TestCases.Magento.GuestGCPurchaseByHand" hash-for-method="testGuestGCPurchaseByHand">testGuestGCPurchaseByHand</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AutomationSuite" title="TestCases.CRM.LateCancel" hash-for-method="testLateCancel">testLateCancel</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AutomationSuite" title="TestCases.Magento.Loginout" hash-for-method="testLoginout">testLoginout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AutomationSuite" title="TestCases.CRM.NSFACH" hash-for-method="testNSFACH">testNSFACH</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AutomationSuite" title="TestCases.CRM.NSFCheck" hash-for-method="testNSFCheck">testNSFCheck</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AutomationSuite" title="TestCases.CRM.OTPACHDecline" hash-for-method="testOTPACHDecline">testOTPACHDecline</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AutomationSuite" title="TestCases.CRM.OTPACHSuccess" hash-for-method="testOTPACHSuccess">testOTPACHSuccess</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AutomationSuite" title="TestCases.CRM.OTPCCDecline" hash-for-method="testOTPDecline">testOTPDecline</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AutomationSuite" title="TestCases.CRM.OTPCCSuccess" hash-for-method="testOTPSuccess">testOTPSuccess</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AutomationSuite" title="TestCases.CRM.OrderItemCredit" hash-for-method="testOrderItemCredit">testOrderItemCredit</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AutomationSuite" title="TestCases.CRM.OrderLevelCredit" hash-for-method="testOrderLevelCredit">testOrderLevelCredit</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AutomationSuite" title="TestCases.CRM.Reactivation" hash-for-method="testReactivation">testReactivation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AutomationSuite" title="TestCases.SalesRep.SalesSignup" hash-for-method="testSalesSignup">testSalesSignup</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AutomationSuite" title="TestCases.Magento.SignupEmailConfirmationCheck" hash-for-method="testSignupEmailConfirmationCheck">testSignupEmailConfirmationCheck</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AutomationSuite" title="TestCases.Magento.UpdateBillingInfo" hash-for-method="testUpdateBillingInfo">testUpdateBillingInfo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AutomationSuite" title="TestCases.SalesRep.UploadTR" hash-for-method="testUploadTR">testUploadTR</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AutomationSuite" title="TestCases.CRM.VacationCancel" hash-for-method="testVacationCancel">testVacationCancel</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AutomationSuite" title="TestCases.CRM.VacationCreate" hash-for-method="testVacationCreate">testVacationCreate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AutomationSuite" title="TestCases.Common.VerifyStaticLinks" hash-for-method="testVerifyStaticLinks">testVerifyStaticLinks</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AutomationSuite" title="TestCases.CRM.DonationOneTime" hash-for-method="testdonateonetime">testdonateonetime</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-AutomationSuite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-AutomationSuite" class="hide-methods passed suite-AutomationSuite"> (hide)</a> <!-- hide-methods passed suite-AutomationSuite -->
+                      <a href="#" panel-name="suite-AutomationSuite" class="show-methods passed suite-AutomationSuite"> (show)</a> <!-- show-methods passed suite-AutomationSuite -->
+                    </span>
+                    <div class="method-list-content passed suite-AutomationSuite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AutomationSuite" title="TestCases.Magento.Signup" hash-for-method="testSignup">testSignup</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-AutomationSuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-AutomationSuite" class="panel AutomationSuite">
+          <div class="suite-AutomationSuite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">TestCases.Magento.AddSubscription</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAddSubscription">
+                  </a> <!-- testAddSubscription -->
+                  <span class="method-name">testAddSubscription</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AutomationSuite-class-skipped -->
+          <div class="suite-AutomationSuite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">TestCases.CRM.OTPCCDecline</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testOTPDecline">
+                  </a> <!-- testOTPDecline -->
+                  <span class="method-name">testOTPDecline</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AutomationSuite-class-skipped -->
+          <div class="suite-AutomationSuite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">TestCases.Magento.DeleteSubscription</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDeleteSubscription">
+                  </a> <!-- testDeleteSubscription -->
+                  <span class="method-name">testDeleteSubscription</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AutomationSuite-class-skipped -->
+          <div class="suite-AutomationSuite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">TestCases.CRM.DeliveryKeyStatus</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDeliveryKeyStatus">
+                  </a> <!-- testDeliveryKeyStatus -->
+                  <span class="method-name">testDeliveryKeyStatus</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AutomationSuite-class-skipped -->
+          <div class="suite-AutomationSuite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">TestCases.CRM.OTPACHSuccess</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testOTPACHSuccess">
+                  </a> <!-- testOTPACHSuccess -->
+                  <span class="method-name">testOTPACHSuccess</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AutomationSuite-class-skipped -->
+          <div class="suite-AutomationSuite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">TestCases.CRM.GiftCertificateByEmail</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGiftCertificateByEmail">
+                  </a> <!-- testGiftCertificateByEmail -->
+                  <span class="method-name">testGiftCertificateByEmail</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AutomationSuite-class-skipped -->
+          <div class="suite-AutomationSuite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">TestCases.CRM.OTPACHDecline</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testOTPACHDecline">
+                  </a> <!-- testOTPACHDecline -->
+                  <span class="method-name">testOTPACHDecline</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AutomationSuite-class-skipped -->
+          <div class="suite-AutomationSuite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">TestCases.CRM.OTPCCSuccess</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testOTPSuccess">
+                  </a> <!-- testOTPSuccess -->
+                  <span class="method-name">testOTPSuccess</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AutomationSuite-class-skipped -->
+          <div class="suite-AutomationSuite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">TestCases.Magento.GuestGCPurchaseByHand</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGuestGCPurchaseByHand">
+                  </a> <!-- testGuestGCPurchaseByHand -->
+                  <span class="method-name">testGuestGCPurchaseByHand</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AutomationSuite-class-skipped -->
+          <div class="suite-AutomationSuite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">TestCases.CRM.AccountCancellation</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAccountCancellation">
+                  </a> <!-- testAccountCancellation -->
+                  <span class="method-name">testAccountCancellation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AutomationSuite-class-skipped -->
+          <div class="suite-AutomationSuite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">TestCases.CRM.OrderLevelCredit</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testOrderLevelCredit">
+                  </a> <!-- testOrderLevelCredit -->
+                  <span class="method-name">testOrderLevelCredit</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AutomationSuite-class-skipped -->
+          <div class="suite-AutomationSuite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">TestCases.CRM.CheckRefund</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCheckRefund">
+                  </a> <!-- testCheckRefund -->
+                  <span class="method-name">testCheckRefund</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AutomationSuite-class-skipped -->
+          <div class="suite-AutomationSuite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">TestCases.CRM.GiftCertificateByHand</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGiftCertificateByHand">
+                  </a> <!-- testGiftCertificateByHand -->
+                  <span class="method-name">testGiftCertificateByHand</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AutomationSuite-class-skipped -->
+          <div class="suite-AutomationSuite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">TestCases.SalesRep.SalesSignup</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSalesSignup">
+                  </a> <!-- testSalesSignup -->
+                  <span class="method-name">testSalesSignup</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AutomationSuite-class-skipped -->
+          <div class="suite-AutomationSuite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">TestCases.ERP.CheckDeposit</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCheckDeposit">
+                  </a> <!-- testCheckDeposit -->
+                  <span class="method-name">testCheckDeposit</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AutomationSuite-class-skipped -->
+          <div class="suite-AutomationSuite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">TestCases.CRM.LateCancel</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLateCancel">
+                  </a> <!-- testLateCancel -->
+                  <span class="method-name">testLateCancel</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AutomationSuite-class-skipped -->
+          <div class="suite-AutomationSuite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">TestCases.CRM.Reactivation</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testReactivation">
+                  </a> <!-- testReactivation -->
+                  <span class="method-name">testReactivation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AutomationSuite-class-skipped -->
+          <div class="suite-AutomationSuite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">TestCases.Common.ConcurrentLoginSessionCheck</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testConcurrentLoginSessionCheck">
+                  </a> <!-- testConcurrentLoginSessionCheck -->
+                  <span class="method-name">testConcurrentLoginSessionCheck</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AutomationSuite-class-skipped -->
+          <div class="suite-AutomationSuite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">TestCases.CRM.CustomerCredit</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCustomerCredit">
+                  </a> <!-- testCustomerCredit -->
+                  <span class="method-name">testCustomerCredit</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AutomationSuite-class-skipped -->
+          <div class="suite-AutomationSuite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">TestCases.CRM.VacationCancel</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testVacationCancel">
+                  </a> <!-- testVacationCancel -->
+                  <span class="method-name">testVacationCancel</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AutomationSuite-class-skipped -->
+          <div class="suite-AutomationSuite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">TestCases.CRM.OrderItemCredit</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testOrderItemCredit">
+                  </a> <!-- testOrderItemCredit -->
+                  <span class="method-name">testOrderItemCredit</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AutomationSuite-class-skipped -->
+          <div class="suite-AutomationSuite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">TestCases.CRM.NSFCheck</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNSFCheck">
+                  </a> <!-- testNSFCheck -->
+                  <span class="method-name">testNSFCheck</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AutomationSuite-class-skipped -->
+          <div class="suite-AutomationSuite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">TestCases.Magento.Loginout</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginout">
+                  </a> <!-- testLoginout -->
+                  <span class="method-name">testLoginout</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AutomationSuite-class-skipped -->
+          <div class="suite-AutomationSuite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">TestCases.CRM.ACHRefund</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testACHRefund">
+                  </a> <!-- testACHRefund -->
+                  <span class="method-name">testACHRefund</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AutomationSuite-class-skipped -->
+          <div class="suite-AutomationSuite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">TestCases.CRM.CCRefund</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCCRefund">
+                  </a> <!-- testCCRefund -->
+                  <span class="method-name">testCCRefund</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AutomationSuite-class-skipped -->
+          <div class="suite-AutomationSuite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">TestCases.Common.VerifyStaticLinks</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testVerifyStaticLinks">
+                  </a> <!-- testVerifyStaticLinks -->
+                  <span class="method-name">testVerifyStaticLinks</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AutomationSuite-class-skipped -->
+          <div class="suite-AutomationSuite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">TestCases.Magento.Customization</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCustomization">
+                  </a> <!-- testCustomization -->
+                  <span class="method-name">testCustomization</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AutomationSuite-class-skipped -->
+          <div class="suite-AutomationSuite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">TestCases.Magento.GuestDonateABox</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGuestDAB">
+                  </a> <!-- testGuestDAB -->
+                  <span class="method-name">testGuestDAB</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AutomationSuite-class-skipped -->
+          <div class="suite-AutomationSuite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">TestCases.CRM.CreateTicket</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreateTicket">
+                  </a> <!-- testCreateTicket -->
+                  <span class="method-name">testCreateTicket</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AutomationSuite-class-skipped -->
+          <div class="suite-AutomationSuite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">TestCases.SalesRep.UploadTR</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUploadTR">
+                  </a> <!-- testUploadTR -->
+                  <span class="method-name">testUploadTR</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AutomationSuite-class-skipped -->
+          <div class="suite-AutomationSuite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">TestCases.Magento.GuestGCPurchaseByEmail</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGuestGCPurchaseByEmail">
+                  </a> <!-- testGuestGCPurchaseByEmail -->
+                  <span class="method-name">testGuestGCPurchaseByEmail</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AutomationSuite-class-skipped -->
+          <div class="suite-AutomationSuite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">TestCases.CRM.DonationRecurring</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDonationRecurring">
+                  </a> <!-- testDonationRecurring -->
+                  <span class="method-name">testDonationRecurring</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AutomationSuite-class-skipped -->
+          <div class="suite-AutomationSuite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">TestCases.Magento.UpdateBillingInfo</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUpdateBillingInfo">
+                  </a> <!-- testUpdateBillingInfo -->
+                  <span class="method-name">testUpdateBillingInfo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AutomationSuite-class-skipped -->
+          <div class="suite-AutomationSuite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">TestCases.CRM.VacationCreate</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testVacationCreate">
+                  </a> <!-- testVacationCreate -->
+                  <span class="method-name">testVacationCreate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AutomationSuite-class-skipped -->
+          <div class="suite-AutomationSuite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">TestCases.CRM.NSFACH</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNSFACH">
+                  </a> <!-- testNSFACH -->
+                  <span class="method-name">testNSFACH</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AutomationSuite-class-skipped -->
+          <div class="suite-AutomationSuite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">TestCases.Magento.SignupEmailConfirmationCheck</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSignupEmailConfirmationCheck">
+                  </a> <!-- testSignupEmailConfirmationCheck -->
+                  <span class="method-name">testSignupEmailConfirmationCheck</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AutomationSuite-class-skipped -->
+          <div class="suite-AutomationSuite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">TestCases.CRM.DonationOneTime</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testdonateonetime">
+                  </a> <!-- testdonateonetime -->
+                  <span class="method-name">testdonateonetime</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AutomationSuite-class-skipped -->
+          <div class="suite-AutomationSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestCases.Magento.Signup</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSignup">
+                  </a> <!-- testSignup -->
+                  <span class="method-name">testSignup</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AutomationSuite-class-passed -->
+        </div> <!-- panel AutomationSuite -->
+        <div panel-name="test-xml-AutomationSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\FFTYStag\FFTY\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;AutomationSuite&quot;&gt;
+  &lt;test verbose=&quot;2&quot; name=&quot;Tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;TestCases.Common.VerifyStaticLinks&quot;/&gt;
+      &lt;class name=&quot;TestCases.Common.ConcurrentLoginSessionCheck&quot;/&gt;
+      &lt;class name=&quot;TestCases.CRM.AccountCancellation&quot;/&gt;
+      &lt;class name=&quot;TestCases.CRM.CustomerCredit&quot;/&gt;
+      &lt;class name=&quot;TestCases.CRM.DeliveryKeyStatus&quot;/&gt;
+      &lt;class name=&quot;TestCases.CRM.DonationOneTime&quot;/&gt;
+      &lt;class name=&quot;TestCases.CRM.DonationRecurring&quot;/&gt;
+      &lt;class name=&quot;TestCases.CRM.GiftCertificateByEmail&quot;/&gt;
+      &lt;class name=&quot;TestCases.CRM.GiftCertificateByHand&quot;/&gt;
+      &lt;class name=&quot;TestCases.CRM.LateCancel&quot;/&gt;
+      &lt;class name=&quot;TestCases.CRM.OrderItemCredit&quot;/&gt;
+      &lt;class name=&quot;TestCases.CRM.OrderLevelCredit&quot;/&gt;
+      &lt;class name=&quot;TestCases.CRM.OTPACHDecline&quot;/&gt;
+      &lt;class name=&quot;TestCases.CRM.OTPACHSuccess&quot;/&gt;
+      &lt;class name=&quot;TestCases.CRM.NSFACH&quot;/&gt;
+      &lt;class name=&quot;TestCases.CRM.ACHRefund&quot;/&gt;
+      &lt;class name=&quot;TestCases.CRM.OTPCCDecline&quot;/&gt;
+      &lt;class name=&quot;TestCases.CRM.OTPCCSuccess&quot;/&gt;
+      &lt;class name=&quot;TestCases.CRM.CheckRefund&quot;/&gt;
+      &lt;class name=&quot;TestCases.CRM.CCRefund&quot;/&gt;
+      &lt;class name=&quot;TestCases.CRM.Reactivation&quot;/&gt;
+      &lt;class name=&quot;TestCases.CRM.VacationCancel&quot;/&gt;
+      &lt;class name=&quot;TestCases.CRM.VacationCreate&quot;/&gt;
+      &lt;class name=&quot;TestCases.CRM.CreateTicket&quot;/&gt;
+      &lt;class name=&quot;TestCases.ERP.CheckDeposit&quot;/&gt;
+      &lt;class name=&quot;TestCases.CRM.NSFCheck&quot;/&gt;
+      &lt;class name=&quot;TestCases.Magento.AddSubscription&quot;/&gt;
+      &lt;class name=&quot;TestCases.Magento.DeleteSubscription&quot;/&gt;
+      &lt;class name=&quot;TestCases.Magento.Customization&quot;/&gt;
+      &lt;class name=&quot;TestCases.Magento.GuestDonateABox&quot;/&gt;
+      &lt;class name=&quot;TestCases.Magento.GuestGCPurchaseByEmail&quot;/&gt;
+      &lt;class name=&quot;TestCases.Magento.GuestGCPurchaseByHand&quot;/&gt;
+      &lt;class name=&quot;TestCases.Magento.Loginout&quot;/&gt;
+      &lt;class name=&quot;TestCases.Magento.Signup&quot;/&gt;
+      &lt;class name=&quot;TestCases.Magento.SignupEmailConfirmationCheck&quot;/&gt;
+      &lt;class name=&quot;TestCases.Magento.UpdateBillingInfo&quot;/&gt;
+      &lt;class name=&quot;TestCases.SalesRep.SalesSignup&quot;/&gt;
+      &lt;class name=&quot;TestCases.SalesRep.UploadTR&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Tests --&gt;
+&lt;/suite&gt; &lt;!-- AutomationSuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-AutomationSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for AutomationSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Tests (38 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-AutomationSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for AutomationSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-AutomationSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for AutomationSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_AutomationSuite');
+function tableData_AutomationSuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(38);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testSignup')
+data.setCell(0, 2, 'TestCases.Magento.Signup')
+data.setCell(0, 3, 197270);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testConcurrentLoginSessionCheck')
+data.setCell(1, 2, 'TestCases.Common.ConcurrentLoginSessionCheck')
+data.setCell(1, 3, 1);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testdonateonetime')
+data.setCell(2, 2, 'TestCases.CRM.DonationOneTime')
+data.setCell(2, 3, 1);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testSalesSignup')
+data.setCell(3, 2, 'TestCases.SalesRep.SalesSignup')
+data.setCell(3, 3, 1);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testACHRefund')
+data.setCell(4, 2, 'TestCases.CRM.ACHRefund')
+data.setCell(4, 3, 0);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testOTPSuccess')
+data.setCell(5, 2, 'TestCases.CRM.OTPCCSuccess')
+data.setCell(5, 3, 0);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testVacationCancel')
+data.setCell(6, 2, 'TestCases.CRM.VacationCancel')
+data.setCell(6, 3, 0);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testGuestGCPurchaseByHand')
+data.setCell(7, 2, 'TestCases.Magento.GuestGCPurchaseByHand')
+data.setCell(7, 3, 0);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testNSFCheck')
+data.setCell(8, 2, 'TestCases.CRM.NSFCheck')
+data.setCell(8, 3, 0);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testDeliveryKeyStatus')
+data.setCell(9, 2, 'TestCases.CRM.DeliveryKeyStatus')
+data.setCell(9, 3, 0);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testOTPACHSuccess')
+data.setCell(10, 2, 'TestCases.CRM.OTPACHSuccess')
+data.setCell(10, 3, 0);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testVacationCreate')
+data.setCell(11, 2, 'TestCases.CRM.VacationCreate')
+data.setCell(11, 3, 0);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testAccountCancellation')
+data.setCell(12, 2, 'TestCases.CRM.AccountCancellation')
+data.setCell(12, 3, 0);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'testReactivation')
+data.setCell(13, 2, 'TestCases.CRM.Reactivation')
+data.setCell(13, 3, 0);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'testOrderLevelCredit')
+data.setCell(14, 2, 'TestCases.CRM.OrderLevelCredit')
+data.setCell(14, 3, 0);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'testGiftCertificateByEmail')
+data.setCell(15, 2, 'TestCases.CRM.GiftCertificateByEmail')
+data.setCell(15, 3, 0);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'testCheckRefund')
+data.setCell(16, 2, 'TestCases.CRM.CheckRefund')
+data.setCell(16, 3, 0);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'testLateCancel')
+data.setCell(17, 2, 'TestCases.CRM.LateCancel')
+data.setCell(17, 3, 0);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'testGuestGCPurchaseByEmail')
+data.setCell(18, 2, 'TestCases.Magento.GuestGCPurchaseByEmail')
+data.setCell(18, 3, 0);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'testCheckDeposit')
+data.setCell(19, 2, 'TestCases.ERP.CheckDeposit')
+data.setCell(19, 3, 0);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'testLoginout')
+data.setCell(20, 2, 'TestCases.Magento.Loginout')
+data.setCell(20, 3, 0);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'testOTPACHDecline')
+data.setCell(21, 2, 'TestCases.CRM.OTPACHDecline')
+data.setCell(21, 3, 0);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'testGiftCertificateByHand')
+data.setCell(22, 2, 'TestCases.CRM.GiftCertificateByHand')
+data.setCell(22, 3, 0);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'testAddSubscription')
+data.setCell(23, 2, 'TestCases.Magento.AddSubscription')
+data.setCell(23, 3, 0);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'testCreateTicket')
+data.setCell(24, 2, 'TestCases.CRM.CreateTicket')
+data.setCell(24, 3, 0);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'testGuestDAB')
+data.setCell(25, 2, 'TestCases.Magento.GuestDonateABox')
+data.setCell(25, 3, 0);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'testCustomization')
+data.setCell(26, 2, 'TestCases.Magento.Customization')
+data.setCell(26, 3, 0);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'testCustomerCredit')
+data.setCell(27, 2, 'TestCases.CRM.CustomerCredit')
+data.setCell(27, 3, 0);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'testNSFACH')
+data.setCell(28, 2, 'TestCases.CRM.NSFACH')
+data.setCell(28, 3, 0);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'testDeleteSubscription')
+data.setCell(29, 2, 'TestCases.Magento.DeleteSubscription')
+data.setCell(29, 3, 0);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'testUpdateBillingInfo')
+data.setCell(30, 2, 'TestCases.Magento.UpdateBillingInfo')
+data.setCell(30, 3, 0);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'testDonationRecurring')
+data.setCell(31, 2, 'TestCases.CRM.DonationRecurring')
+data.setCell(31, 3, 0);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'testOrderItemCredit')
+data.setCell(32, 2, 'TestCases.CRM.OrderItemCredit')
+data.setCell(32, 3, 0);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'testOTPDecline')
+data.setCell(33, 2, 'TestCases.CRM.OTPCCDecline')
+data.setCell(33, 3, 0);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'testCCRefund')
+data.setCell(34, 2, 'TestCases.CRM.CCRefund')
+data.setCell(34, 3, 0);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'testSignupEmailConfirmationCheck')
+data.setCell(35, 2, 'TestCases.Magento.SignupEmailConfirmationCheck')
+data.setCell(35, 3, 0);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'testVerifyStaticLinks')
+data.setCell(36, 2, 'TestCases.Common.VerifyStaticLinks')
+data.setCell(36, 3, 0);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'testUploadTR')
+data.setCell(37, 2, 'TestCases.SalesRep.UploadTR')
+data.setCell(37, 3, 0);
+window.suiteTableData['AutomationSuite']= { tableData: data, tableDiv: 'times-div-AutomationSuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 3 minutes</span>
+              <div id="times-div-AutomationSuite">
+              </div> <!-- times-div-AutomationSuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-AutomationSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for AutomationSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-AutomationSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-AutomationSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.Common.VerifyStaticLinks</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ExecutionStatusCheck</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testVerifyStaticLinks</span>
+                <span class="method-start">241 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.Common.ConcurrentLoginSessionCheck</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ExecutionStatusCheck</span>
+                <span class="method-start">244 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testConcurrentLoginSessionCheck</span>
+                <span class="method-start">355 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.CRM.AccountCancellation</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ExecutionStatusCheck</span>
+                <span class="method-start">356 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testAccountCancellation</span>
+                <span class="method-start">400 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.CRM.CustomerCredit</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ExecutionStatusCheck</span>
+                <span class="method-start">401 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.CRM.DeliveryKeyStatus</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ExecutionStatusCheck</span>
+                <span class="method-start">434 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.CRM.CustomerCredit</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testCustomerCredit</span>
+                <span class="method-start">434 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.CRM.DonationOneTime</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ExecutionStatusCheck</span>
+                <span class="method-start">467 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.CRM.DeliveryKeyStatus</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testDeliveryKeyStatus</span>
+                <span class="method-start">467 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.CRM.DonationOneTime</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testdonateonetime</span>
+                <span class="method-start">509 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.CRM.DonationRecurring</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ExecutionStatusCheck</span>
+                <span class="method-start">510 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.CRM.GiftCertificateByEmail</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ExecutionStatusCheck</span>
+                <span class="method-start">543 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.CRM.DonationRecurring</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testDonationRecurring</span>
+                <span class="method-start">543 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.CRM.GiftCertificateByEmail</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testGiftCertificateByEmail</span>
+                <span class="method-start">579 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.CRM.GiftCertificateByHand</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ExecutionStatusCheck</span>
+                <span class="method-start">580 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.CRM.LateCancel</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ExecutionStatusCheck</span>
+                <span class="method-start">615 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.CRM.GiftCertificateByHand</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testGiftCertificateByHand</span>
+                <span class="method-start">615 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.CRM.OrderItemCredit</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ExecutionStatusCheck</span>
+                <span class="method-start">662 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.CRM.LateCancel</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testLateCancel</span>
+                <span class="method-start">662 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.CRM.OrderLevelCredit</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ExecutionStatusCheck</span>
+                <span class="method-start">697 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.CRM.OrderItemCredit</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testOrderItemCredit</span>
+                <span class="method-start">697 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.CRM.OTPACHDecline</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ExecutionStatusCheck</span>
+                <span class="method-start">730 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.CRM.OrderLevelCredit</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testOrderLevelCredit</span>
+                <span class="method-start">730 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.CRM.OTPACHSuccess</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ExecutionStatusCheck</span>
+                <span class="method-start">772 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.CRM.OTPACHDecline</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testOTPACHDecline</span>
+                <span class="method-start">772 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.CRM.OTPACHSuccess</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testOTPACHSuccess</span>
+                <span class="method-start">805 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.CRM.NSFACH</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ExecutionStatusCheck</span>
+                <span class="method-start">806 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.CRM.ACHRefund</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ExecutionStatusCheck</span>
+                <span class="method-start">840 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.CRM.NSFACH</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testNSFACH</span>
+                <span class="method-start">840 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.CRM.ACHRefund</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testACHRefund</span>
+                <span class="method-start">877 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.CRM.OTPCCDecline</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ExecutionStatusCheck</span>
+                <span class="method-start">878 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testOTPDecline</span>
+                <span class="method-start">916 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.CRM.OTPCCSuccess</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ExecutionStatusCheck</span>
+                <span class="method-start">917 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.CRM.CheckRefund</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ExecutionStatusCheck</span>
+                <span class="method-start">950 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.CRM.OTPCCSuccess</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testOTPSuccess</span>
+                <span class="method-start">950 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.CRM.CheckRefund</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testCheckRefund</span>
+                <span class="method-start">982 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.CRM.CCRefund</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ExecutionStatusCheck</span>
+                <span class="method-start">983 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.CRM.Reactivation</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ExecutionStatusCheck</span>
+                <span class="method-start">1015 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.CRM.CCRefund</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testCCRefund</span>
+                <span class="method-start">1015 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.CRM.VacationCancel</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ExecutionStatusCheck</span>
+                <span class="method-start">1047 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.CRM.Reactivation</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testReactivation</span>
+                <span class="method-start">1047 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.CRM.VacationCreate</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ExecutionStatusCheck</span>
+                <span class="method-start">1080 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.CRM.VacationCancel</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testVacationCancel</span>
+                <span class="method-start">1080 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.CRM.VacationCreate</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testVacationCreate</span>
+                <span class="method-start">1111 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.CRM.CreateTicket</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ExecutionStatusCheck</span>
+                <span class="method-start">1112 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.ERP.CheckDeposit</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ExecutionStatusCheck</span>
+                <span class="method-start">1144 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.CRM.CreateTicket</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testCreateTicket</span>
+                <span class="method-start">1144 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.CRM.NSFCheck</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ExecutionStatusCheck</span>
+                <span class="method-start">1177 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.ERP.CheckDeposit</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testCheckDeposit</span>
+                <span class="method-start">1177 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.CRM.NSFCheck</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testNSFCheck</span>
+                <span class="method-start">1208 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.Magento.AddSubscription</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ExecutionStatusCheck</span>
+                <span class="method-start">1209 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testAddSubscription</span>
+                <span class="method-start">1245 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.Magento.DeleteSubscription</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ExecutionStatusCheck</span>
+                <span class="method-start">1246 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.Magento.Customization</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ExecutionStatusCheck</span>
+                <span class="method-start">1278 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.Magento.DeleteSubscription</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testDeleteSubscription</span>
+                <span class="method-start">1278 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.Magento.GuestDonateABox</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ExecutionStatusCheck</span>
+                <span class="method-start">1311 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.Magento.Customization</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testCustomization</span>
+                <span class="method-start">1311 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.Magento.GuestGCPurchaseByEmail</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ExecutionStatusCheck</span>
+                <span class="method-start">1350 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.Magento.GuestDonateABox</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testGuestDAB</span>
+                <span class="method-start">1350 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.Magento.GuestGCPurchaseByHand</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ExecutionStatusCheck</span>
+                <span class="method-start">1386 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.Magento.GuestGCPurchaseByEmail</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testGuestGCPurchaseByEmail</span>
+                <span class="method-start">1386 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.Magento.Loginout</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ExecutionStatusCheck</span>
+                <span class="method-start">1423 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.Magento.GuestGCPurchaseByHand</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testGuestGCPurchaseByHand</span>
+                <span class="method-start">1423 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.Magento.Signup</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">ExecutionStatusCheck</span>
+                <span class="method-start">1456 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.Magento.Loginout</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testLoginout</span>
+                <span class="method-start">1456 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.Magento.Signup</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testSignup</span>
+                <span class="method-start">10331 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.Magento.SignupEmailConfirmationCheck</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ExecutionStatusCheck</span>
+                <span class="method-start">207601 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.Magento.UpdateBillingInfo</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ExecutionStatusCheck</span>
+                <span class="method-start">207785 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.Magento.SignupEmailConfirmationCheck</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testSignupEmailConfirmationCheck</span>
+                <span class="method-start">207785 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.SalesRep.SalesSignup</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ExecutionStatusCheck</span>
+                <span class="method-start">207893 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.Magento.UpdateBillingInfo</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testUpdateBillingInfo</span>
+                <span class="method-start">207893 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.SalesRep.SalesSignup</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testSalesSignup</span>
+                <span class="method-start">207969 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.SalesRep.UploadTR</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ExecutionStatusCheck</span>
+                <span class="method-start">207970 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testUploadTR</span>
+                <span class="method-start">208061 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
